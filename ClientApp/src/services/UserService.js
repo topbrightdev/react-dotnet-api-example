@@ -2,6 +2,8 @@ export async function getAllUsers() {
   
     const response = await fetch('/api/users');
     return await response.json();
+    const response1 = await fetch('/api/users');
+    return await response.json();
 }
 
 export async function createUser(data) {

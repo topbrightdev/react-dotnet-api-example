@@ -34,6 +34,8 @@ namespace react_dotnet_example.Models
                     Console.WriteLine("Order: order.Created");
                 }
                 db.Users.Add(item);
+                Console.WriteLine(item);
+
                 db.SaveChanges(); 
             }
             if (item == null)
